@@ -1,8 +1,5 @@
-x = 5
-y = 10
+def adunare(a, b):
+    return a + b
 
-adunare = x + y
-scadere = y - x
-
-print(adunare)
-print(scadere)
+def scadere(a, b):
+    return a - b
